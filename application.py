@@ -12,7 +12,7 @@ with open('LinearRegressionModel.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 
-df1 = pd.read_csv('Cleaned_data.csv')
+df1 = pd.read_csv('Cleaned_data.csv') 
 
 
 @app.route('/', methods=['GET', 'POST'])
